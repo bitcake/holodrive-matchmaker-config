@@ -1,0 +1,27 @@
+{
+  "matchMakerConfig": {
+    "matchmaker": "matchmaker",
+
+    "matchMakingMaxWaitTime": 10.0,
+    "teamMatcherMaxWaitTime": 10.0,
+
+    "minPlayerCountNoRoom": 2,
+    "minPlayerCount": 2,
+    "maxPlayerCount": 8,
+
+    "minMmrTolerance": 0,
+    "maxMmrTolerance": 100
+  },
+
+  "dropInConfig": {
+    "enabled": true,
+
+    "teamACountRoomPropertyName": "TeamA",
+    "teamBCountRoomPropertyName": "TeamB",
+    "playerJoinTime": 10.0,
+
+    "roomProperties": {
+      "CanJoin": true
+    }
+  }
+}
