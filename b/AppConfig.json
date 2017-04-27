@@ -19,6 +19,11 @@
     "teamACountRoomPropertyName": "TeamA",
     "teamBCountRoomPropertyName": "TeamB",
     "playerJoinTime": 10.0,
+    
+    "levelRangePropertyName": "Level Range",
+    "lowLevelRangePropertyValue": "1-9",
+    "highLevelRangePropertyValue": "10-999",
+    "highLevelValue": 10,
 
     "roomProperties": {
       "CanJoin": true
