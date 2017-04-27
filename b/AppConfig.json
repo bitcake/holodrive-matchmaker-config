@@ -21,9 +21,9 @@
     "playerJoinTime": 10.0,
     
     "levelRangePropertyName": "Level Range",
-    "lowLevelRangePropertyValue": "1-9",
-    "highLevelRangePropertyValue": "10-999",
-    "highLevelValue": 10,
+    "lowLevelRangePropertyValue": "LOW_LEVEL",
+    "highLevelRangePropertyValue": "HIGH_LEVEL",
+    "highLevelValue": 5,
 
     "roomProperties": {
       "CanJoin": true
