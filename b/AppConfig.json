@@ -20,6 +20,9 @@
     "teamBCountRoomPropertyName": "TeamB",
     "playerJoinTime": 10.0,
     
+    "enableTdmFilterHack": false,
+    
+    "enableSegregation": false,
     "levelRangePropertyName": "Level Range",
     "lowLevelRangePropertyValue": "LOW_LEVEL",
     "highLevelRangePropertyValue": "HIGH_LEVEL",
