@@ -26,7 +26,7 @@
     "teamAMmrSumRoomPropertyName": "TeamALevelSum",
     "teamBMmrSumRoomPropertyName": "TeamBLevelSum",
 
-    "enableTdmFilterHack": true,
+    "enableTdmFilterHack": false,
 
     "enableSegregation": false,
     "levelRangePropertyName": "Level Range",
