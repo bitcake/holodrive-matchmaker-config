@@ -1,12 +1,12 @@
 {
   "realtime": {
-    "version": "0.8.8_1.80",
+    "version": "0.8.6_1.80",
     "availableRegions": [ "asia", "au", "cae", "eu", "jp", "sa", "us", "usw" ],
     "regions": [ "us", "eu" ]
   },
 
   "chat": {
-    "version": "0.8.8",
+    "version": "0.8.6",
     "regions": [ "US" ]
   }
 }
