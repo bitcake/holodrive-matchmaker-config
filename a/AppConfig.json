@@ -16,12 +16,18 @@
   "dropInConfig": {
     "enabled": true,
 
-    "teamACountRoomPropertyName": "TeamA",
-    "teamBCountRoomPropertyName": "TeamB",
     "playerJoinTime": 10.0,
-    
+    "maxRoomAverageMmr": 30,
+
+    "teamACountRoomPropertyName": "TeamACount",
+    "teamBCountRoomPropertyName": "TeamBCount",
+
+    "mmrSumRoomPropertyName": "LevelSum",
+    "teamAMmrSumRoomPropertyName": "TeamALevelSum",
+    "teamBMmrSumRoomPropertyName": "TeamBLevelSum",
+
     "enableTdmFilterHack": true,
-    
+
     "enableSegregation": false,
     "levelRangePropertyName": "Level Range",
     "lowLevelRangePropertyValue": "LOW_LEVEL",
