@@ -37,5 +37,12 @@
     "roomProperties": {
       "CanJoin": true
     }
+  },
+  
+  "gameModes": {
+	"Deathmatch",
+	"Team Deathmatch",
+	"Collectors",
+	"Dummyball"
   }
 }
