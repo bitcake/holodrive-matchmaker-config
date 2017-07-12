@@ -40,9 +40,9 @@
   },
   
   "gameModes": [
-	"Deathmatch",
-	"Team Deathmatch",
-	"Collectors",
-	"Dummyball"
+	"DM",
+	"TDM",
+	"DB",
+	"COL"
   ]
 }
