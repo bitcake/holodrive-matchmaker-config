@@ -40,7 +40,6 @@
   },
   
   "gameModes": [
-	"DM",
 	"TDM",
 	"DB",
 	"COL"
