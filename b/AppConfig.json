@@ -39,10 +39,10 @@
     }
   },
   
-  "gameModes": {
+  "gameModes": [
 	"Deathmatch",
 	"Team Deathmatch",
 	"Collectors",
 	"Dummyball"
-  }
+  ]
 }
