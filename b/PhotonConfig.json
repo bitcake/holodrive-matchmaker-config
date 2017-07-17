@@ -1,6 +1,6 @@
 {
   "realtime": {
-    "version": "0.8.9_1.80",
+    "version": "0.8.9_1.85",
     "availableRegions": [ "asia", "au", "cae", "eu", "jp", "sa", "us", "usw" ],
     "regions": [ "us", "eu" ]
   },
