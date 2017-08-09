@@ -2,11 +2,11 @@
   "matchMakerConfig": {
     "matchmaker": "matchmaker",
 
-    "matchMakingMaxWaitTime": 2.0,
+    "matchMakingMaxWaitTime": 10.0,
     "teamMatcherMaxWaitTime": 10.0,
 
     "minPlayerCountNoRoom": 2,
-    "minPlayerCount": 3,
+    "minPlayerCount": 4,
     "maxPlayerCount": 8,
 
     "minMmrTolerance": 0,
