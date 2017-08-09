@@ -16,7 +16,7 @@
   "dropInConfig": {
     "enabled": true,
 
-    "playerJoinTime": 10.0,
+    "playerJoinTime": 20.0,
     "maxRoomAverageMmr": 30,
 
     "teamACountRoomPropertyName": "TeamACount",
@@ -37,5 +37,11 @@
     "roomProperties": {
       "CanJoin": true
     }
-  }
+  },
+
+  "gameModes": [
+	"TDM",
+	"DB",
+	"COL"
+  ]
 }
