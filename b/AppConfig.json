@@ -2,11 +2,11 @@
   "matchMakerConfig": {
     "matchmaker": "matchmaker",
 
-    "matchMakingMaxWaitTime": 10.0,
+    "matchMakingMaxWaitTime": 5.0,
     "teamMatcherMaxWaitTime": 10.0,
 
     "minPlayerCountNoRoom": 2,
-    "minPlayerCount": 4,
+    "minPlayerCount": 2,
     "maxPlayerCount": 8,
 
     "minMmrTolerance": 0,
@@ -16,7 +16,7 @@
   "dropInConfig": {
     "enabled": true,
 
-    "playerJoinTime": 15.0,
+    "playerJoinTime": 20.0,
     "maxRoomAverageMmr": 30,
 
     "teamACountRoomPropertyName": "TeamACount",
@@ -38,7 +38,7 @@
       "CanJoin": true
     }
   },
-  
+
   "gameModes": [
 	"TDM",
 	"DB",
