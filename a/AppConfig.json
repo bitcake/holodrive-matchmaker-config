@@ -19,7 +19,7 @@
 	"dropInDelay": 10.0,
 	"maxWaitTime": 30.0,
 
-    "playerJoinTime": 20.0,
+    "playerJoinTime": 40.0,
     "maxRoomAverageMmr": 30,
 
 	"minMmrTolerance": 0,
