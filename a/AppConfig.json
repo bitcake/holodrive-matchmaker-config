@@ -10,7 +10,7 @@
     "maxPlayerCount": 8,
 
     "minMmrTolerance": 0,
-    "maxMmrTolerance": 160
+    "maxMmrTolerance": 260
   },
 
   "dropInConfig": {
