@@ -1,6 +1,6 @@
 {
   "matchMakerConfig": {
-    "matchmaker": "lessa",
+    "matchmaker": "matchmaker",
 
     "matchMakingMaxWaitTime": 40.0,
     "teamMatcherMaxWaitTime": 10.0,
