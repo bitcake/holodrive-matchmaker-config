@@ -26,7 +26,14 @@
     "maxMmrTolerance": 160,
     
     "gameModeRoomPropertyName": "Game Mode",
-	"teamGameModes": [ "Team Deathmatch", "Collectors", "Dummyball" ],
+	"teamGameModes": [
+        "Team Deathmatch",
+        "Collectors",
+        "Dummyball"
+    ],
+    "lowLevelGameModes": [
+        "Team Deathmatch"
+    ],
 
     "teamACountRoomPropertyName": "TeamACount",
     "teamBCountRoomPropertyName": "TeamBCount",
@@ -52,5 +59,8 @@
 	"TDM",
 	"DB",
 	"COL"
+  ],
+  "lowLevelGameModes": [
+    "TDM"
   ]
 }
