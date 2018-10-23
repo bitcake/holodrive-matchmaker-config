@@ -5,7 +5,7 @@
     "matchMakingMaxWaitTime": 40.0,
     "teamMatcherMaxWaitTime": 10.0,
 
-    "minPlayerCountNoRoom": 1,
+    "minPlayerCountNoRoom": 2,
     "minPlayerCount": 4,
     "maxPlayerCount": 8,
 
