@@ -29,7 +29,8 @@
 	"teamGameModes": [
         "Team Deathmatch",
         "Collectors",
-        "Dummyball"
+        "Dummyball",
+        "Domination"
     ],
     "lowLevelGameModes": [
         "Team Deathmatch"
