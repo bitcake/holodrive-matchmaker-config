@@ -57,10 +57,9 @@
   },
 
   "gameModes": [
-	"TDM",
-	"DB",
-	"COL",
-    "DOM"
+	
+	"DB"
+	
   ],
   "lowLevelGameModes": [
     "TDM"
