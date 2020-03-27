@@ -12,6 +12,7 @@ docker login
 ## Docker Compose
 ```
 docker-compose up
+docker-compose logs -f --tail 50 
 docker-compose down
 ```
 
