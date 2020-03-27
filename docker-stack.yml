@@ -2,7 +2,6 @@ version: "3.5"
 services:
   holodrive-matchmaker-a:
     image: bitcakestudio/holodrive-matchmaker:latest
-    network_mode: "host"
     deploy:
       restart_policy:
         condition: any
@@ -10,7 +9,6 @@ services:
       APP_TAG: a
   holodrive-matchmaker-b:
     image: bitcakestudio/holodrive-matchmaker:latest
-    network_mode: "host"
     deploy:
       restart_policy:
         condition: any
