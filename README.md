@@ -40,6 +40,6 @@ docker ps
 docker container ls -a
 docker container logs -f --tail 50 matchmaker-a
 
-docker kill
+docker kill matchmaker-a
 docker container prune -f
 ```
