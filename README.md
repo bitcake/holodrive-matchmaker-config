@@ -2,16 +2,27 @@
 
 Config files for Holodrive's MatchMaker
 
-## Deploy
+## Setup
 ```
 ssh root@<ip> -i <ssh-key>
-curl https://bitcake.github.io/holodrive-matchmaker-config/docker-stack.yml -O
+curl https://bitcake.github.io/holodrive-matchmaker-config/docker-compose.yml -O
 docker login
+```
+
+## Docker Compose
+```
+docker-compose up
+docker-compose down
+```
+
+----
+
+## Docker Stack
+```
 docker stack init
 docker stack deploy -c docker-stack.yml holodrive-matchmaker
 ```
 
-## Manage
 ```
 docker stack ls
 docker stack ps holodrive-matchmaker
