@@ -1,0 +1,16 @@
+version: "3.5"
+services:
+  holodrive-matchmaker-a:
+    image: bitcakestudio/holodrive-matchmaker:latest
+    deploy:
+      restart_policy:
+        condition: any
+    environment:
+      APP_TAG: a
+  holodrive-matchmaker-b:
+    image: bitcakestudio/holodrive-matchmaker:latest
+    deploy:
+      restart_policy:
+        condition: any
+    environment:
+      APP_TAG: b
