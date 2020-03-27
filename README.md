@@ -7,6 +7,7 @@ Config files for Holodrive's MatchMaker
 ssh root@<ip> -i <ssh-key>
 curl https://bitcake.github.io/holodrive-matchmaker-config/docker-compose.yml -O
 docker login
+docker-compose pull
 ```
 
 ## Docker Compose
