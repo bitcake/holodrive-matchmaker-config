@@ -1,6 +1,6 @@
 {
   "enabled": true,
-  "minutesFrequency": 5,
+  "minutesFrequency": 10,
   "appTagColors": {
     "a": [ 160, 32, 240 ],
     "b": [ 111, 239, 31 ]
