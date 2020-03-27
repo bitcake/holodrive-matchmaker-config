@@ -3,5 +3,5 @@
 Config files for Holodrive's MatchMaker
 
 ```
-curl http://bitcake.github.io/holodrive-matchmaker-config/docker-compose.yml -O
+curl https://bitcake.github.io/holodrive-matchmaker-config/docker-compose.yml -O
 ```
