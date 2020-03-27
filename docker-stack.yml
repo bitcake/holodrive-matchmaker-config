@@ -3,6 +3,7 @@ services:
   holodrive-matchmaker-a:
     image: bitcakestudio/holodrive-matchmaker:latest
     deploy:
+      mode: global
       restart_policy:
         condition: any
     environment:
@@ -10,6 +11,7 @@ services:
   holodrive-matchmaker-b:
     image: bitcakestudio/holodrive-matchmaker:latest
     deploy:
+      mode: global
       restart_policy:
         condition: any
     environment:
