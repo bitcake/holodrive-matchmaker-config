@@ -1,0 +1,14 @@
+version: "2.4"
+services:
+  holodrive-matchmaker-a:
+    image: bitcakestudio/holodrive-matchmaker:latest
+    network_mode: "host"
+    restart: always
+    environment:
+      APP_TAG: a
+  holodrive-matchmaker-b:
+    image: bitcakestudio/holodrive-matchmaker:latest
+    network_mode: "host"
+    restart: always
+    environment:
+      APP_TAG: b
