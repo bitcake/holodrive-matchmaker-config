@@ -27,12 +27,13 @@
     
     "gameModeRoomPropertyName": "Game Mode",
 	"teamGameModes": [
+	"Team Deathmatch",
         "Collectors",
         "Dummyball",
         "Domination"
     ],
     "lowLevelGameModes": [
-        "Dummyball"
+        "Team Deathmatch"
     ],
 
     "teamACountRoomPropertyName": "TeamACount",
@@ -57,10 +58,11 @@
 
   "gameModes": [
 	"DB",
+	  "TDM",
 	"COL",
     "DOM"
   ],
   "lowLevelGameModes": [
-    "DOM"
+    "TDM"
   ]
 }
