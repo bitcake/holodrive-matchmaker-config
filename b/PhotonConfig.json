@@ -1,6 +1,6 @@
 {
 	"realtime": {
-		"version": "0.9.13_1.94",
+		"version": "1.0.0T_1.94",
 		"appId": "7744207f-06d8-4722-ac77-a9024788ee6b",
 		"availableRegions": [
 			"asia",
@@ -18,7 +18,7 @@
 		]
 	},
 	"chat": {
-		"version": "0.9.13",
+		"version": "1.0.0T",
 		"appId": "3c5e6a38-8ff3-430a-9ab5-99be1419e435",
 		"regions": [
 			"US"
