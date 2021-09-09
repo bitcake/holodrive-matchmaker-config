@@ -1,68 +1,65 @@
 {
-  "matchMakerConfig": {
-    "matchmaker": "matchmaker",
+	"matchMakerConfig": {
+		"matchmaker": "matchmaker",
 
-    "matchMakingMaxWaitTime": 30.0,
-    "teamMatcherMaxWaitTime": 10.0,
+		"matchMakingMaxWaitTime": 30.0,
+		"teamMatcherMaxWaitTime": 10.0,
 
-    "minPlayerCountNoRoom": 2,
-    "minPlayerCount": 4,
-    "maxPlayerCount": 8,
+		"minPlayerCountNoRoom": 4,
+		"minPlayerCount": 4,
+		"maxPlayerCount": 8,
 
-    "minMmrTolerance": 0,
-    "maxMmrTolerance": 260
-  },
+		"minMmrTolerance": 0,
+		"maxMmrTolerance": 260
+	},
 
-  "dropInConfig": {
-    "enabled": true,
+	"dropInConfig": {
+		"enabled": false,
 
-	"dropInDelay": 10.0,
-	"maxWaitTime": 30.0,
+		"dropInDelay": 10.0,
+		"maxWaitTime": 30.0,
 
-    "playerJoinTime": 30.0,
-    "maxRoomAverageMmr": 30,
+		"playerJoinTime": 30.0,
+		"maxRoomAverageMmr": 30,
 
-	"minMmrTolerance": 0,
-    "maxMmrTolerance": 160,
-    
-    "gameModeRoomPropertyName": "Game Mode",
-	"teamGameModes": [
-        "Team Deathmatch",
-        "Collectors",
-        "Dummyball",
-        "Domination"
-    ],
-    "lowLevelGameModes": [
-        "Team Deathmatch"
-    ],
+		"minMmrTolerance": 0,
+		"maxMmrTolerance": 160,
 
-    "teamACountRoomPropertyName": "TeamACount",
-    "teamBCountRoomPropertyName": "TeamBCount",
+		"gameModeRoomPropertyName": "Game Mode",
+		"teamGameModes": [
+			"Team Deathmatch",
+			"Collectors",
+			"Dummyball",
+			"Domination"
+		],
+		"lowLevelGameModes": [
+			"Team Deathmatch"
+		],
 
-    "mmrSumRoomPropertyName": "LevelSum",
-    "teamAMmrSumRoomPropertyName": "TeamALevelSum",
-    "teamBMmrSumRoomPropertyName": "TeamBLevelSum",
+		"teamACountRoomPropertyName": "TeamACount",
+		"teamBCountRoomPropertyName": "TeamBCount",
 
-    "enableTdmFilterHack": true,
+		"mmrSumRoomPropertyName": "LevelSum",
+		"teamAMmrSumRoomPropertyName": "TeamALevelSum",
+		"teamBMmrSumRoomPropertyName": "TeamBLevelSum",
 
-    "enableSegregation": false,
-    "levelRangePropertyName": "Level Range",
-    "lowLevelRangePropertyValue": "LOW_LEVEL",
-    "highLevelRangePropertyValue": "HIGH_LEVEL",
-    "highLevelValue": 5,
+		"enableTdmFilterHack": true,
 
-    "roomProperties": {
-      "CanJoin": true
-    }
-  },
+		"enableSegregation": false,
+		"levelRangePropertyName": "Level Range",
+		"lowLevelRangePropertyValue": "LOW_LEVEL",
+		"highLevelRangePropertyValue": "HIGH_LEVEL",
+		"highLevelValue": 5,
 
-  "gameModes": [
-	"DB",
-	"TDM",
-    "COL",
-    "DOM"
-  ],
-  "lowLevelGameModes": [
-    "TDM"
-  ]
+		"roomProperties": {
+			"CanJoin": true
+		}
+	},
+
+	"gameModes": [
+		"TDM",
+	],
+	"lowLevelGameModes": [
+		"TDM"
+	]
 }
